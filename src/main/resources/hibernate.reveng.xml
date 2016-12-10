@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="mr_database"/>
+  <table-filter match-name="measurement_unit"/>
+  <table-filter match-name="manager"/>
+  <table-filter match-name="shop_user"/>
+  <table-filter match-name="medical_representative"/>
+  <table-filter match-name="medicine"/>
+  <table-filter match-name="user_role"/>
+  <table-filter match-name="medicine_type"/>
+  <table-filter match-name="offer"/>
+  <table-filter match-name="order_detail"/>
+  <table-filter match-name="generic"/>
+  <table-filter match-name="order"/>
+  <table-filter match-name="company"/>
+  <table-filter match-name="zone"/>
+  <table-filter match-name="payment"/>
+  <table-filter match-name="user"/>
+</hibernate-reverse-engineering>
