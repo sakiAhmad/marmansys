@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/")
-public class AppConfig {
+public class AppController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String getIndexPage() {
@@ -15,6 +15,6 @@ public class AppConfig {
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String newUser() {
-        return "insert-company";
+        return "admin/insert-company";
     }
 }
