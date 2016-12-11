@@ -12,6 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+    <center>
+        <h1>Wlecome TO MARMANSYS</h1>
+        
+    </center>
+        
     </body>
 </html>
