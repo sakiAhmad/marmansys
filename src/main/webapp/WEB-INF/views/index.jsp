@@ -13,7 +13,7 @@
     </head>
     <body>
     <center>
-        <h1>Wlecome TO MARMANSYS</h1>
+        <h1>Welcome TO MARKETING MANAGEMENT SYSTEM</h1>
         <input type="text" placeholder="username"/>
         <input type="text" placeholder="password"/>
         <input type="button" value="Submit"/>
