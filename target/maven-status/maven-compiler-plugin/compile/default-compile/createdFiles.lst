@@ -1,5 +1,4 @@
-com\marmansys\configuration\AppConfig.class
 com\marmansys\configuration\CORSFilter.class
-com\marmansys\controller\AppController.class
 com\marmansys\configuration\HibernateConfiguration.class
+com\marmansys\configuration\AppConfig.class
 com\marmansys\configuration\AppInitializer.class
