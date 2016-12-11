@@ -5,9 +5,7 @@ import com.marmansys.entity.Company;
 import java.util.List;
 
 public interface CompanyDao {
-    Company findById(int id);
-
-    Company findBySSO(String sso);
+   
 
     void save(Company company);
 
