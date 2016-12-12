@@ -9,15 +9,25 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Login Marmansys</title>
     </head>
     <body>
     <center>
-        <h1>Welcome TO MARKETING MANAGEMENT SYSTEM</h1>
-        <input type="text" placeholder="username"/>
-        <input type="text" placeholder="password"/>
-        <input type="button" value="Submit"/>
+        <form>
+            <h1>MARKETING MANAGEMENT SYSTEM</h1>
+            <table>
+                <tr>
+                    <td>User Name :</td><td><input type="text" placeholder="username" id="username"/></td>
+                </tr>
+                <tr>
+                    <td>Password :</td><td><input type="text" placeholder="password" id="password"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Login"/></td><td><input type="button" value="Reset"/></td>
+                </tr>
+            </table>
+        </form>
     </center>
-        
-    </body>
+
+</body>
 </html>
