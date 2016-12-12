@@ -3,6 +3,7 @@ com\marmansys\dao\AbstractDao.class
 com\marmansys\entity\MeasurementUnit.class
 com\marmansys\configuration\CORSFilter.class
 com\marmansys\configuration\HibernateConfiguration.class
+com\marmansys\dao\CompanyDaoImpl.class
 com\marmansys\service\CompanyService.class
 com\marmansys\entity\Company.class
 com\marmansys\entity\Medicine.class
