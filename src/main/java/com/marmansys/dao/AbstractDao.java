@@ -1,7 +1,12 @@
 
 package com.marmansys.dao;
 
-public abstract class AbstractDao{
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+public abstract class AbstractDao {
+    
+    @Autowired
+    private SessionFactory sessionFactory;
     
 }
-
