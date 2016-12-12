@@ -17,10 +17,10 @@
             <h1>MARKETING MANAGEMENT SYSTEM</h1>
             <table>
                 <tr>
-                    <td>User Name :</td><td><input type="text" placeholder="username"/></td>
+                    <td>User Name :</td><td><input type="text" placeholder="username" id="username"/></td>
                 </tr>
                 <tr>
-                    <td>Password :</td><td><input type="text" placeholder="password"/></td>
+                    <td>Password :</td><td><input type="text" placeholder="password" id="password"/></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="Login"/></td><td><input type="button" value="Reset"/></td>
