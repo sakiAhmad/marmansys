@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping("/")
 public class AppController {
-    
+
     @Autowired
     CompanyService companyService;
 
@@ -23,11 +23,11 @@ public class AppController {
     public String newUser() {
         return "admin/insert-company";
     }
-    
-     @RequestMapping(value = "/admin/add-company", method = RequestMethod.GET)
+
+    @RequestMapping(value = "/admin/add-company", method = RequestMethod.GET)
     public String addCompany() {
-        Company company=new Company();
-        
+        Company company = new Company();
+
         company.setCompanyName("Love");
         companyService.addCompany(company);
         return "index";
