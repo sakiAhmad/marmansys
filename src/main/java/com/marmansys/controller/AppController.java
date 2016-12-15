@@ -15,6 +15,6 @@ public class AppController {
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String newUser() {
-        return "admin/insert-company";
+        return "admin/admin-dashbord";
     }
 }
