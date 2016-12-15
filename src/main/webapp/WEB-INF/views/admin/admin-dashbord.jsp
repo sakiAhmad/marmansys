@@ -26,7 +26,7 @@
         <h3 class="text-muted">MARMANSYS</h3>
         <nav>
           <ul class="nav nav-justified">
-            <li><a href="insert-company.jsp">Insert Company</a></li>
+            <li><a href="/marmansys/admin/insert-company">Insert Company</a></li>
           </ul>
         </nav>
       </div>
