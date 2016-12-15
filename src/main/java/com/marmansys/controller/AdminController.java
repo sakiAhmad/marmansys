@@ -15,8 +15,7 @@ public class AdminController {
     
     @Autowired
     CompanyService companyService;
-    
-    //@RequestMapping(value = "/admin", method = RequestMethod.GET)
+
     @RequestMapping(method = RequestMethod.GET)
     public String adminPanel() {
         return "admin/admin-dashbord";
