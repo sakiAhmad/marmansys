@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RESTfulController {
 
     @RequestMapping(value = "admin/company/test", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public String listAllUsers() {
+    public String RestTest() {
         return "Hello Rest";
     }
 }
