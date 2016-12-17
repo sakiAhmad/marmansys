@@ -23,4 +23,5 @@ com\marmansys\configuration\AppInitializer.class
 com\marmansys\dao\CompanyDao.class
 com\marmansys\service\CompanyServiceImpl.class
 com\marmansys\entity\Payment.class
+com\marmansys\controller\RESTfulController.class
 com\marmansys\entity\MedicalRepresentative.class
